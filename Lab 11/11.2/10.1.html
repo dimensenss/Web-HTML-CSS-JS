@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="main">
+   <div id="date"></div>
+   <input type="date" id="choose_date" >
+   <button id="change_date">Змінити</button>
+</div>
+<script>
+    show_date();
+    var btn=document.getElementById('change_date');
+    btn.addEventListener('click',show_new_date);
+</script>
+</body>
+</html>

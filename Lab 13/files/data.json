@@ -1,0 +1,14 @@
+{
+    "name":["Ivanov1. O.V.","Ivanov2 A.E.","Ivanov3 P.S.","Ivanov4 F.V.","Ivanov4 K.N."],
+    "faculty":["KN1","KN2","KN3","KN4","KN5"],
+    "course":["2","3","2","1","2"],
+    "group":["121d","321a","221b","123a","223d"],
+    "lesson":["Predmet1","Predmet2","Predmet3"],
+    "hours":["3","2","2"],
+    "teacher":["Prepod1 A.A.","Prepod2 I.V.","Prepod3 O.V."],
+    "form":["exam","zalik","zalik","exam","zalik","zalik"],
+    "mark":["5","4","5","5","5","5"],
+    "date":["26.11","12.12","24.11","06.12","18.11","21.12"],
+    "i_st":["1","1","2","3","4","2"],
+    "i_les":["1","2","3","1","2","3"]
+}

@@ -1,0 +1,12 @@
+body{
+    font-size: 40px;
+    background-color: rgb(255, 251, 127);
+}
+input {
+    font-size: 30px;
+    width: 200px;
+}
+button{
+    font-size: 30px;
+}
+td{width: 300px;}

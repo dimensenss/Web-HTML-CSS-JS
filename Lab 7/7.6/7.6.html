@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+        <div class="main">
+            <div class="buttons">
+                <button class="add" id="a" onclick="add()">Додати</button>
+                <button class="del" id="d" onclick="del()">Видалити</button>
+            </div>
+            
+            <div div class="input">
+                <table cellspacing="5">
+                    <tr>
+                        <td><input type="text" id="model" placeholder="модель"></td>
+                        <td><input type="text" id="brand" placeholder="марка"></td>
+                        <td><input type="text" id="year" placeholder="рік випуску"></td>
+                        <td><input type="text" id="engine" placeholder="об'єм двигуна"></td>
+                        <td><input type="text" id="capasity" placeholder="потужність"></td>
+                    </tr>
+                </table>
+                <table id="parent" cellspacing="5"></table>
+            </div> 
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

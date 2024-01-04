@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+    background-size: 100%;
+    font-size: 40px;
+}
+input {
+    width: 300px;
+    font-size: 30px;
+}
+button{
+    font-size: 30px;
+}

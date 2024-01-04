@@ -1,0 +1,43 @@
+html,body{
+	height: 100%;
+	background-color: #2222e5;
+	margin: 0px;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer{
+    background-color: #4b4b4b;
+	font-size: 20px;
+	color: black;
+	bottom: 0;
+}
+
+.header{
+	color: black;
+    background-color: #828282;
+	text-align: center;
+}
+.nav1, .nav2, .content{
+	display: inline-block;
+	margin: 0px;
+}
+.nav1{
+	width: 200px;
+	height: 645px;
+	text-align: center;
+	background-color:azure;
+}
+.nav2{
+	width: 200px;
+	height: 645px;
+	text-align: center;
+	background-color:azure;
+	position: absolute;
+	right: 0;
+}
+.content{
+    font-size: 24px;
+}

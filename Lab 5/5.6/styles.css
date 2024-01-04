@@ -1,0 +1,80 @@
+.menu{
+    width: 1500px;
+    height: 50px;
+    line-height:50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+  display: none;  
+}
+.menu1,.menu2,.menu3,.menu4,.menu5,.menu6{
+    text-align: center;
+    width: 175px;
+    height: 50px;
+    margin-right: 12px;
+    display: block;
+    float: left;
+}
+.menu1{background-color: rgb(95, 139, 0);}
+.menu2{background-color: rgb(91, 91, 255);}
+.menu3{background-color: rgb(226, 136, 0);}
+.menu4{background-color: rgb(173, 0, 118);}
+.menu5{background-color: rgb(233, 64, 64);}
+.menu6{background-color: rgb(0, 222, 166);}
+.block1,.block2,.block3,.block4,.block5,.block6{
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    line-height:400px; 
+}
+.block1{ 
+    background-color: rgb(95, 139, 0);
+    top: 350px;
+    left: 200px;
+    z-index: 6;
+}
+.block2{  
+    background-color:  rgb(91, 91, 255);
+    top: 300px;
+    left: 300px;
+    z-index: 5;
+}
+.block3{
+    background-color: rgb(226, 136, 0);
+    top: 250px;
+    left: 400px;
+    z-index: 4;
+}
+.block4{
+    background-color: rgb(173, 0, 118);
+    top: 200px;
+    left: 500px;
+    z-index: 3;
+}
+.block5{
+    background-color:rgb(233, 64, 64);
+    top: 150px;
+    left: 600px;
+    z-index: 2;}
+.block6{
+    background-color:rgb(0, 222, 166);
+    top: 100px;
+    left: 700px;
+    z-index: 1;
+}
+#ch1:checked~*.block1{z-index: 6; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch2:checked~*.block2{z-index: 6; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch3:checked~*.block3{z-index: 6; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch4:checked~*.block4{z-index: 6; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch5:checked~*.block5{z-index: 6; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch6:checked~*.block6{z-index: 6; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}

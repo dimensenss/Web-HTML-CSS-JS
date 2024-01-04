@@ -1,0 +1,119 @@
+body{background-color: rgb(170, 237, 170);}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 100%;
+}
+.wrapper2{
+    margin-left: 20%;
+    margin-top: -40px;
+}
+
+.wrapper3{
+    margin-left: 40%;
+    margin-top: -40px;
+}
+.wrapper4{
+    margin-left: 60%;
+    margin-top: -40px;
+}
+.wrapper5{
+    margin-left: 80%;
+    margin-top: -40px;
+}
+.wrapper,  .wrapper2, .wrapper3, .wrapper4, .wrapper5{
+   
+   
+    width:10%;
+    background-color: rgb(74, 96, 207);
+    position:relative;
+    color:white;
+    text-align: center;
+    height: 40px;
+    border-radius: 9px;
+}
+#check-menu,#check-menu2,#check-menu21 , #check-menu3,#check-menu32, #check-menu4,#check-menu41, #check-menu5, #check-menu56{
+    display: none;
+}
+label{
+    display: block;
+    width: 100%;
+    cursor:pointer;
+    z-index:2;
+    line-height: 40px;
+}
+.main-menu, .main-menu2, .main-menu12,.main-menu3,.main-menu32,.main-menu4,.main-menu41,.main-menu5,.main-menu56{
+    display:block;
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    top:0;
+    transform:translateY(100%);
+    max-height: 0%;
+    font-size: 0%;
+    max-width: 0%;
+    overflow: inherit;
+    
+}
+a{
+    display:block;
+    width: 100%;
+    padding: 10px;
+    color:rgb(71, 71, 71);
+    text-decoration: none;
+    background-color:rgb(205, 213, 255);
+}
+#check-menu:checked ~ .main-menu{
+    max-height: 100%;
+    font-size:16px;
+    max-width: 100%;
+}
+#check-menu2:checked ~ .main-menu2{
+    max-height: 100%;
+    font-size:16px;
+    max-width: 500px;
+}
+
+
+#check-menu21:checked~.main-menu12{
+    max-height: 100%;
+    font-size:16px;
+    max-width: 500px;
+}
+
+#check-menu3:checked ~ .main-menu3{
+    max-height: 500px;
+    font-size:16px;
+    max-width: 500px;
+}
+
+#check-menu32:checked ~ .main-menu32{
+    max-height: 500px;
+    font-size:16px;
+    max-width: 500px;
+}
+#check-menu56:checked ~ .main-menu56{
+    max-height: 500px;
+    font-size:16px;
+    max-width: 500px;
+}
+#check-menu4:checked ~ .main-menu4{
+    max-height: 500px;
+    font-size:16px;
+    max-width: 500px;
+}
+#check-menu5:checked ~ .main-menu5{
+    max-height: 500px;
+    font-size:16px;
+    max-width: 500px;
+}
+#check-menu41:checked ~ .main-menu41{
+    max-height: 500px;
+    font-size:16px;
+    max-width: 500px;
+}
+
+

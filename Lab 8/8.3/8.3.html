@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="main">
+		<button id="btn_create_arr">Створити масив</button>
+	</div>
+	<div class="add">
+		<input type="text" id="input_add">
+		<button id="btn_add_el">Додати ел</button>	
+	</div>
+	<div class="change">
+		<input type="text" id="input_change">
+		<button id="btn_change_el">Змінити ел</button>
+	</div>
+	<div class="del">
+		<input type="text" id="input_del">
+		<button id="btn_del_el">Видалити ел</button>
+	</div>
+	<div class="sort">
+		<input type="checkbox" value="up" name="up">вверх
+		<input type="checkbox" value="down" name="up">вниз
+		<button id="btn_sort">Сортування</button>
+	</div>
+     <div class="res" id = "result_arr"></div>   
+</div>
+<script>
+	var btn = document.getElementById("btn_create_arr");
+        btn.addEventListener("click", create);
+        btn = document.getElementById("btn_add_el");
+		btn.addEventListener("click", add);
+		btn = document.getElementById("btn_change_el");
+		btn.addEventListener("click", change);
+		btn = document.getElementById("btn_del_el");
+		btn.addEventListener("click", del);
+		btn = document.getElementById("btn_sort");
+		btn.addEventListener("click", sort);
+</script>
+
+</body>
+</html>

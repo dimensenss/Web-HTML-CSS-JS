@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+    <button class="open-button">Change bg</button>
+    <div class="block"></div>    
+    <dialog class="modal">
+        <label>
+            Bg: 
+            <select class="selectBg">
+                <option disabled selected>img</option>
+                <option value="cat" class="first">1</option>
+                <option value="dog" class="second">2</option>
+                <option value="mouse" class="third">3</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            Bg repeat: 
+            <select class="selectBorder">
+                <option disabled selected>repeat</option>
+                <option value="repeat-x" class="first">repeat-x</option>
+                <option value="repeat-y" class="second">repeat-y</option>
+                <option value="repeat" class="third">repeat</option>
+                <option value="space" class="fourth">space</option>
+                <option value="no-repeat" class="fifth">no-repeat</option>
+            </select>
+        </label>
+        <br>
+        <button class="set">Change</button>
+        <button class="close-button">Exit</button>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="main">
+		<button id="btn_create_arr">Створити масив</button>
+	</div>
+	<div class="add">
+		<input type="text" id="input_add">
+		<button id="btn_add_el">Додати ел</button>	
+	</div>
+	<div class="change">
+		<input type="text" id="input_change">
+		<button id="btn_change_el">Змінити ел</button>
+	</div>
+	<div class="del">
+		<input type="text" id="input_del">
+		<button id="btn_del_el">Видалити ел</button>
+	</div>
+	<div class="sort">
+		<input type="checkbox" value="up" name="up">вверх
+		<input type="checkbox" value="down" name="up">вниз
+		<button id="btn_sort">Сортування</button>
+	</div>
+	<div class="copy">
+		<button id="btn_copy">Копіювати</button>
+	</div>
+	<div class="filter">
+		<button id="btn_filter">Фільтрувати</button>
+	</div>
+	<div class="statistic">
+		<button id="btn_statistic">Статистика</button>
+	</div>
+	<div class="modify">
+		<button id="btn_modify">Модифікувати</button>
+	</div>
+	<div class="check">
+		<button id="btn_check">Перевірити</button>
+	</div>
+	<div class="find">
+		<button id="btn_find">Знайти число в діапазоні</button>
+	</div>
+     <div class="res" id = "result_arr"></div>   
+	 <div class="arr_copy" id="arr_copy"></div>
+	 <div class="arr_filter" id = "arr_filter"></div> 
+	 <div class="arr_statistic" id="arr_statistic"></div>
+	 <div class="arr_modify" id="arr_modify"></div>
+	 <div class="arr_check" id="arr_check"></div>
+	 <div class="arr_find" id="arr_find"></div>
+</div>
+<script>
+	var btn = document.getElementById("btn_create_arr");
+        btn.addEventListener("click", create);
+        btn = document.getElementById("btn_add_el");
+		btn.addEventListener("click", add);
+		btn = document.getElementById("btn_change_el");
+		btn.addEventListener("click", change);
+		btn = document.getElementById("btn_del_el");
+		btn.addEventListener("click", del);
+		btn = document.getElementById("btn_sort");
+		btn.addEventListener("click", sort);
+		btn = document.getElementById("btn_copy");
+		btn.addEventListener("click", copy);
+		btn = document.getElementById("btn_filter");
+		btn.addEventListener("click", filter_arr);
+		btn = document.getElementById("btn_statistic");
+		btn.addEventListener("click", statistic);
+		btn = document.getElementById("btn_modify");
+		btn.addEventListener("click", modify);
+		btn = document.getElementById("btn_check");
+		btn.addEventListener("click", check);
+		btn = document.getElementById("btn_find");
+		btn.addEventListener("click", find);
+</script>
+
+</body>
+</html>

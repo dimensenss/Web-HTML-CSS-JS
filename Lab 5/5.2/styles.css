@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+}
+
+a:link{
+    color: rgb(132, 0, 255);
+}
+a:visited{
+    color: rgb(137, 70, 15);
+}
+a:active{
+    color: rgb(255, 0, 128);
+}
+p{
+	color: cornflowerblue;
+}
+p::first-letter{
+	font-size: 30px;
+	color: blueviolet;
+}
+p::first-line{
+	font-size: 20px;/*2in*/
+	color: rgb(142, 57, 0);
+}
+p:nth-child(2)::before{
+	content: "old ";
+	color: red;
+}
+p::selection {
+	color: rgb(255, 0, 128);
+	background-color: rgb(255, 255, 255); 
+ }
+

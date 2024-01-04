@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab4.5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<form action="">
+		<table>
+			<tr>
+				<td>
+					<p>Aнкета відвідувача ресторану:</p>
+				</td>
+			</tr>
+			<tr>
+				<td><fieldset>
+				<legend class="font_legend">Контактна інформація</legend>
+			<table>
+			
+			<tr>
+				<td><label for="name">Ім'я</label></td>
+				<td><input class="text-input" type="text" id="name" placeholder="Ім'я"></td>
+			</tr>
+			<tr>
+				<td><label for="phone">Телефон</label></td>
+				<td><input class="text-input" type="text" id="phone"placeholder="Телефон"></td>
+			</tr>
+			<tr>
+				<td><label for="gmail">Пошта</label></td>
+				<td><input class="text-input" type="text" id="gmail"placeholder="Email"></td>
+			</tr>
+			<tr>
+				<td><label for="day">Дата відвідування</label></td>
+				<td><input class="text-input" type="text" id="day" placeholder="Дата"></td>
+			</tr>
+		    </table>
+		</fieldset></td>
+			</tr>
+			<tr>
+				<td><fieldset>
+				<legend class="font_legend">Персональна інформація</legend>
+				<table><tr>
+				<td><label for="age">Вік</label></td>
+				<td align="left">
+					<select class="text-input" id = "age" >
+                        <option >18</option>
+                        <option >19</option>
+                        <option >20</option>
+                        <option >22</option>
+                        <option >23</option>
+                        <option >24</option>
+                        <option >25</option>
+                    </select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="food">Улюблена кухня</label>
+				</td>
+				<td>
+					<select class="text-input" id="food">
+						<option >Українська</option>
+                        <option >Італійська</option>
+                        <option >Польська</option>
+                        <option >Німецька</option>
+                        <option >Французська</option>
+                        <option >Грузинська</option>
+                        <option >Японська</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<label for="wishes">Які страви ви б хотіли бачити в меню?</label>
+				</td>
+				<td>
+					<textarea class="text-input"></textarea>
+				</td>
+			</tr>
+		</table>
+		</fieldset></td>
+			</tr>
+			<tr>
+				<td><fieldset>
+			<legend class="font_legend">Оцінка нашої установи</legend>
+			<table>
+			<tr><td><label for="quest1">Чому обрали нашу установу?</label></td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1">Недалко від роботи/дому</td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1">Побачив рекламу</td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1">Порадили</td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1">Оптимальне співвідношення ціни та якості</td></tr>
+			<tr><td><label for="quest2">Чи будете рекомендувати нашу установу друзям та знайомим?</label></td></tr>
+			<tr><td><input type="radio" id="quest2" name="quest2">Так</td></tr>
+			<tr><td><input type="radio" id="quest2" name="quest2">Ні</td></tr>
+            <tr><td><input value="Надіслати"class="button-1" type="submit"> <input value="Очистити" class="button-2"type="reset"></td></tr>
+		</table>
+		</fieldset>
+		</td>
+			</tr>
+		</table>	
+	</form>
+</body>
+</html>

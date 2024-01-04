@@ -1,0 +1,82 @@
+<main>
+
+    <Student>
+        <name>Ivanov1. O.V.</name>
+        <faculty>KN1</faculty>
+        <course>2</course>
+        <group>121a</group>
+
+        <name>Ivanov2 A.E.</name>
+        <faculty>KN2</faculty>
+        <course>3</course>
+        <group>322d</group>
+
+        <name>Ivanov3 P.S.</name>
+        <faculty>KN3</faculty>
+        <course>2</course>
+        <group>162a</group>
+
+        <name>Ivanov4 F.V.</name>
+        <faculty>KN4</faculty>
+        <course>1</course>
+        <group>312b</group>
+
+        <name>Ivanov5 K.N.</name>
+        <faculty>KN5</faculty>
+        <course>3</course>
+        <group>212d</group>
+    </Student>
+
+    <Lesson>
+        <lesson>Predmet1</lesson>
+        <hours>2</hours>
+        <teacher>Prepod1 A.A.</teacher>
+
+        <lesson>Predmet2</lesson>
+        <hours>2</hours>
+        <teacher>Prepod2 I.V.</teacher>
+
+        <lesson>Predmet3</lesson>
+        <hours>3</hours>
+        <teacher>Prepod3 O.V.</teacher>
+    </Lesson>
+
+    <Exam>
+        <form_>exam</form_>
+        <mark>5</mark>
+        <date>26.11</date>
+        <index_st>1</index_st>
+        <index_l>1</index_l>
+
+        <form_>zalik</form_>
+        <mark>5</mark> 
+        <date>12.12</date>
+        <index_st>4</index_st>
+        <index_l>2</index_l>
+
+        <form_>exam</form_>
+        <mark>4</mark>
+        <date>30.11</date>
+        <index_st>3</index_st>
+        <index_l>1</index_l>
+
+        <form_>exam</form_>
+        <mark>3</mark>
+        <date>8.12</date>
+        <index_st>2</index_st>
+        <index_l>2</index_l>
+
+        <form_>zalik</form_>
+        <mark>5</mark>
+        <date>28.11</date>
+        <index_st>3</index_st>
+        <index_l>3</index_l>
+
+        <form_>zalik</form_>
+        <mark>5</mark>
+        <date>18.11</date>
+        <index_st>2</index_st>
+        <index_l>3</index_l>
+    </Exam>
+
+</main>

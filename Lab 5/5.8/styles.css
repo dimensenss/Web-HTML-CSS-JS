@@ -1,0 +1,60 @@
+
+.menu{
+    position: relative;
+    font-size: 20px;
+    
+    color:white;
+    
+}
+.menu ul li a, .menu ul li a:visited{
+    display: block;
+    color: white;
+    text-align: center;
+    width: 100px; 
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(86, 190, 119);
+    overflow: hidden;
+    border-radius: 3px;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu ul li{
+    position: relative;
+    float: left;
+}
+.menu ul li ul{
+    display: none;
+}
+.menu ul li:hover ul{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100px;
+}
+.menu ul li:hover ul li a.hide{
+    color: rgb(120, 120, 120);
+    background-color: rgb(220, 235, 215); 
+}
+.menu ul li:hover ul li:hover a.hide, .menu ul li:hover ul li a:hover, .menu ul li:hover a{
+    color: rgb(0, 42, 34);
+    background-color: rgb(187, 205, 182); 
+}
+.menu ul li:hover ul li ul{
+    display: none;
+}
+.menu ul li:hover ul li a{
+    display: block;
+    color: white;
+    background-color: rgb(255, 208, 208); 
+}
+.menu ul li:hover ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}

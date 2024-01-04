@@ -1,0 +1,41 @@
+body{
+    height:100%;
+    background-color: rgb(176, 146, 146);
+}
+
+
+#select{
+    height: 70px;
+    width: 505px;
+    margin-left: -520px;
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+.bl1, .bl2, .bl3, .bl4, .bl5, .bl6, .bl7{
+   position: absolute;
+   background-color: rgb(215, 208, 79);
+   width: 500px;
+   }
+.bl1{
+    z-index: 6;
+}
+.bl2 {
+    z-index: 5;
+}
+.bl3 {
+    z-index: 4;
+}
+.bl4 {
+    z-index: 3;
+}
+.bl5 {
+    z-index: 2;
+}
+.bl6 {
+    z-index: 1;
+}
+
+
+

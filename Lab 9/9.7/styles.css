@@ -1,0 +1,26 @@
+
+body{
+    height: 100%;
+    background-color: #bef9fe;
+}
+.bl1,.bl2,.bl3,.bl4{
+    height: 300px;
+    width: 300px;
+    background-color: #88a8ff;
+}
+.bl1{border: solid 12px  white;}
+.bl2{border: solid 12px  white;}
+.bl3{border: solid 12px  white;}
+.bl4{border: solid 12px  white;}
+
+.main{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

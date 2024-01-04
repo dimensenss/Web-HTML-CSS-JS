@@ -1,0 +1,11 @@
+
+body{
+    height: 100%;
+    background-color: #ab9ef0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}

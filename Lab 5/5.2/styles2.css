@@ -1,0 +1,38 @@
+body{
+    height: 100%;
+}
+.body{
+	background-color: #ffe0fc;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: rgb(40, 33, 33);
+}
+a:active{
+    color: hotpink;
+}
+p{
+	color: cornflowerblue;
+}
+p::first-letter{
+	font-size: 30px;
+	color: blueviolet;
+}
+p::first-line{
+	font-size: 20px;/*2in*/
+	color: rgb(101, 55, 55);
+}
+p:nth-child(2)::before{
+	content: "old ";
+	color: red;
+}
+p::after{
+	content: " new";
+	color: rgb(46, 163, 39);
+}
+p::selection {
+	color: hotpink;
+	background-color: rgb(255, 255, 255); 
+ }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="input"><input type="text" id="input1"></div>
+    <div class="btn"><button id="btn_adapt">Adapt</button></div>
+    <div class="btn"><button id="btn_sort">Sort</button></div>
+    <div class="res" id = "result"></div>   
+    <div class="res" id = "result2">
+        <ul id="parent"></ul>
+    </div>  
+</div>
+<script>
+    var btn = document.getElementById("btn_adapt");
+    btn.addEventListener("click", adapt);
+    var btn = document.getElementById("btn_sort");
+    btn.addEventListener("click", sort);
+</script>
+</body>
+</html>

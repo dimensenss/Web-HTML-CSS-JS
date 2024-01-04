@@ -1,0 +1,58 @@
+
+
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.menu1,.menu2,.menu3,.menu4,.menu5{
+    text-align: center;
+    width: 175px;
+    height: 50px;
+    margin-right: 12px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    color: rgb(218, 232, 227);
+    
+    
+}
+.menu1{background-color: rgb(95, 139, 0);}
+.menu2{background-color: rgb(91, 91, 255);}
+.menu3{background-color: rgb(226, 136, 0);}
+.menu4{background-color: rgb(173, 0, 118);}
+.menu5{background-color: rgb(233, 64, 64);}
+.one{
+	z-index: 1;
+    top: 400px;
+    left: 700px;
+}
+.two{
+	z-index: 1;
+	top: 400px;
+    left: 900px;
+}
+.three{
+	z-index: 1;
+    top: 250px;
+    left: 800px;
+	
+}
+.four{
+	z-index: 1;
+	top: 550px;
+    left: 600px;
+}
+.five{
+	z-index: 1;
+	top: 550px;
+    left: 1000px;
+}
+#ch1:checked~*.one{z-index: 2; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch2:checked~*.two{z-index: 2; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch3:checked~*.three{z-index: 2; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch4:checked~*.four{z-index: 2; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}
+#ch5:checked~*.five{z-index: 2; transform: scale(120%); transition: background-color 0.4s, transform 0.3s;}

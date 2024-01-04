@@ -1,0 +1,18 @@
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(45, 49, 56);
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+}
+.move0, .move25, .move50, .move75, .move100{ position: absolute; transition: transform 1000ms; }
+
+.move0{transform: translate(0px, 0px) rotate(10deg);}
+.move25{transform: translate(500px, 0px) rotate(20deg);}
+.move50{transform: translate(0px, 500px) rotate(30deg);}
+.move75{transform: translate(500px, 500px) rotate(40deg);}
+.move100{transform: translate(0px, 0px) rotate(50deg);}

@@ -1,0 +1,82 @@
+
+
+body{
+    height: 100%;
+    background-color: #2795f5;
+}
+
+table{
+    display:block;
+    width: 500px;
+    font-size: 16px;
+    font-family: "Cambria";
+}
+fieldset{
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.font_legend{
+    font-size: 20px;
+    color: rgb(0, 79, 164);
+    font-weight: 500;
+    font-style: italic;
+}
+.button-1{
+    float:left;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    border: 0px;
+    font-family: 'Tahoma';
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px, rgb(0, 0, 0);
+    box-shadow: 3px 3px 0 0 #320078;
+    transition: background-color 0.4s, transform 0.3s;
+    
+}
+.button-2{
+    float:right;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    width:100px;
+    height: 100px;
+    border: 0px;
+    font-family: 'Tahoma';
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px, rgb(0, 0, 0);
+    box-shadow: 3px 3px 0 0 #320078;
+    transition: background-color 0.4s, transform 0.3s;
+}
+
+.text-input{
+    background-color: #84d2ff;
+    border: 0px;
+    height: 30px;
+    color: rgb(53, 49, 53);
+    font-size: 16px;
+    border-radius: 8px;
+    font-family: 'Tahoma';
+    box-shadow: 3px 3px 0 0 #312ee6;
+    transition: background-color 0.4s, transform 0.3s;
+}
+.text-input:focus{
+    background-color: aliceblue;
+    color: #61c7d0;
+    box-shadow: 5px 5px 0 0 #42009e;
+    transform: scale(115%);
+}
+.button-1:hover{
+    background-color: azure;
+    color: #8f61d0;
+    box-shadow: 5px 5px 0 0 #319fff;
+    transform: scale(110%);
+}
+.button-2:hover{
+    background-color: azure;
+    color: #fb9200;
+    box-shadow: 5px 5px 0 0 #319fff;
+    transform: scale(110%);
+}

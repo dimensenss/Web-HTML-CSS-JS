@@ -1,0 +1,18 @@
+<main>
+<Student name="Ivanov1 A.V." faculty="KN1" course="2" group="121b"></Student>
+<Student name="Ivanov2 D.E." faculty="KN2" course="3" group="221b"></Student>
+<Student name="Ivanov3 P.S." faculty="KN3" course="1" group="321b"></Student>
+<Student name="Ivanov4 F.V." faculty="KN4" course="3" group="221d"></Student>
+<Student name="Ivanov5 K.N." faculty="KN5" course="2" group="123a"></Student>
+
+<Lesson lesson="Predmet1" hours="2" teacher="Prepod1 A.I."></Lesson>
+<Lesson lesson="Predmet2" hours="3" teacher="Prepod2 I.V"></Lesson>
+<Lesson lesson="Predmet3" hours="2" teacher="Prepod3 A.O."></Lesson>
+
+<Exam form="exam" mark="4" date="25.11" i_st="1" i_l="2"></Exam>
+<Exam form="zalik" mark="5" date="23.11" i_st="2" i_l="1"></Exam>
+<Exam form="zalik" mark="5" date="18.11" i_st="3" i_l="2"></Exam>
+<Exam form="exam" mark="4" date="12.12" i_st="4" i_l="3"></Exam>
+<Exam form="zalik" mark="5" date="5.12" i_st="1" i_l="1"></Exam>
+<Exam form="exam" mark="5" date="28.11" i_st="3" i_l="3"></Exam>
+</main>

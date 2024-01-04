@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+		<table>
+			<tr>
+				<td>
+					<p>Aнкета відвідувача ресторану:</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+						<input type ="password" class="pass" placeholder="пароль">
+						<!-- <button type="submit" class ="btn">show</button> -->
+						<input type="checkbox" id ="btn" value="log">
+				</td>
+			</tr>
+			<tr>
+				<td><fieldset>
+				<legend class="font_legend">Контактна інформація</legend>
+			<table>
+			
+			<tr>
+				<td><label for="name">Ім'я</label></td>
+				<td><input class="text-input" type="text" id="name"></td>
+			</tr>
+			<tr>
+				<td><label for="phone">Телефон</label></td>
+				<td><input class="text-input" type="text" id="phone"></td>
+			</tr>
+			<tr>
+				<td><label for="gmail">Пошта</label></td>
+				<td><input class="text-input" type="text" id="gmail"></td>
+			</tr>
+			<tr>
+				<td><label for="day">Дата відвідування</label></td>
+				<td><input class="text-input" type="text" id="day"></td>
+			</tr>
+			<tr></tr>
+		    </table>
+		</fieldset></td>
+			</tr>
+			<tr>
+				<td><fieldset>
+				<legend class="font_legend">Персональна інформація</legend>
+				<table><tr>
+				<td><label for="age">Вік</label></td>
+				<td align="left">
+					<select class="text-input" id="age">
+						<option>до 18</option>
+						<option>18 - 25</option>
+						<option>25 - 40</option>
+						<option>40 - 60</option>
+						<option>60+</option> 
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="food">Улюблена кухня</label>
+				</td>
+				<td>
+					<select class="text-input" id="food">
+						<option>Українська</option>
+						<option>Китайська</option>
+						<option>Грецька</option>
+						<option>Індійська</option>
+						<option>Грузинська</option> 
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<label for="wishes">Які страви ви б хотіли бачити в меню?</label>
+				</td>
+				<td>
+					<textarea class="text-input" id="wishes"></textarea>
+				</td>
+			</tr>
+		</table>
+		</fieldset></td>
+			</tr>
+			<tr>
+				<td><fieldset>
+			<legend class="font_legend">Оцінка установи</legend>
+			<table>
+			<tr><td><label for="quest1">Чому обрали нашу установу?</label></td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1" value="Недалко від роботи/дому">Недалко від роботи/дому</td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1" value="Побачив рекламу">Побачив рекламу</td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1" value="Порадили">Порадили</td></tr>
+			<tr><td><input type="radio" id="quest1" name="quest1" value="Оптимальне співвідношення ціни та якості">Оптимальне співвідношення ціни та якості</td></tr>
+			<tr><td><label for="quest2">Чи будете рекомендувати нашу установу друзям та знайомим?</label></td></tr>
+			<tr><td><input type="radio" id="quest2" name="quest2" value="Так">Так</td></tr>
+			<tr><td><input type="radio" id="quest2" name="quest2" value="Ні">Ні</td></tr>
+            <tr><td> <button class="button_send" onclick="foo()">Надіслати</button> <input value="Очистити" class="button_reset"type="reset"></td></tr>
+		</table>
+		</fieldset>
+		</td>
+			</tr>
+		</table>	
+	<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+
+body{
+    height: 100%;
+    background-color: rgb(134, 255, 140);
+    font-size: 40px;
+}
+input[type='date']{height: 40px; width: 210px; font-size: 20px;}
+button{height: 40px; width: 215px; font-size: 20px; }

@@ -1,0 +1,34 @@
+.elips{
+	border-radius: 10%;
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+	
+}
+.circle{
+	border-radius: 50%;
+	height: 20%;
+	width: 20%;
+	float: right;
+	margin-left: 50px;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.square{
+	height: 15%;
+	width: 15%;
+	float: right;
+	margin-left: 20px;
+	margin-right: 100px;
+
+}
+.layer{
+	
+    overflow-x: scroll; /* Добавляем полосы прокрутки */
+	
+    width: 300px; /* Ширина блока */
+    
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+}

@@ -1,0 +1,66 @@
+body{background-color: rgb(169, 251, 254);}
+.container, .content1, .content2, .content3{display: flex; width: 100%;} 
+.div1, .div2, .div3{
+    background-color: rgb(77, 166, 248);
+     width: 150px;
+      margin-right: 10px;
+    }
+.container {
+    flex-direction: column;
+    height: 100%;
+}
+.content1 {
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    padding-bottom: 10px;
+}
+.content2 {
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding-bottom: 10px;
+}
+.content3 {
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+.div1 {height: 150px;}
+.div2 {height: 225px;}
+.div3 {height: 300px;}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .div1, .div2, .div3{
+        width: 50px; 
+        margin-right: 5px;
+    }
+    .content1, .content2, .content3{
+        height: 100px;
+    }
+    .div1 {height: 50px;}
+    .div2 {height: 75px;}
+    .div3 {height: 100px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .content1, .content2, .content3{
+        height: 200px;
+    }
+    .div1, .div2, .div3{
+        width: 100px; 
+        margin-right: 10px;
+    }
+    .div1 {height: 100px;}
+    .div2 {height: 150px;}
+    .div3 {height: 200px;}
+}
+@media only screen and (min-width: 1824px){
+    
+    .content1, .content2, .content3{
+        height: 400px;
+    }
+    .div1, .div2, .div3{
+        width: 200px; 
+        margin-right: 20px;
+    }
+    .div1 {height: 200px;}
+    .div2 {height: 300px;}
+    .div3 {height: 400px;}
+}

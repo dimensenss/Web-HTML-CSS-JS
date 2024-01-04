@@ -1,0 +1,14 @@
+body{
+    background-color: #ffe0fc;
+    height: 100%;
+}
+a:link{
+    color: rgb(132, 0, 255);
+}
+a:visited{
+    color: rgb(134, 76, 0);
+}
+a:active{
+    color: rgb(255, 0, 128);
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+
+</head>
+<body>
+    <div id="block">
+
+    </div>
+    <script>
+         function loadScript(src) {            
+            return new Promise(function(resolve, reject){ 
+                setTimeout(function(){
+                let script = document.createElement('script'); 
+                script.src = src; 
+                script.onload = () => resolve(script); 
+                script.onerror = () => reject(new Error(`Error ${src}`)); 
+                document.head.append(script);
+                }, 1000)
+            })
+        }
+        loadScript('createBlocks.js') 
+            .then(function() {
+                return loadScript('paintBlocks.js'); 
+            }) 
+            .then(function() {                
+                return loadScript('fillBlocks.js');                
+            })
+    </script>
+</body>
+</html>

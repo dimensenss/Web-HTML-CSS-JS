@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <div>
+        <select class="select_size" id="">
+            <option disabled selected>arr size</option>
+            <option value="arr100">100</option>
+            <option value="arr200">200</option>
+            <option value="arr500">500</option>
+            <option value="arr1000">1000</option>
+            <option value="arr5000">5000</option>
+            <option value="arr10000">10000</option>
+            <option value="arr25000">25000</option>
+            <option value="arr50000">50000</option>
+            <option value="arr100000">100000</option>
+        </select>
+        <button id="create_btn">create</button>
+    </div>
+<div id="container">
+   
+    <button id="stat_btn">statistic</button>
+    <button id="sort_btn">sort</button> 
+    <button id="modify_btn">modify</button>
+    <button id="filter_btn">filter</button>
+    <button id="check_btn1">check < 20</button>
+    <button id="search_btn">find el.</button>
+    
+</div>
+
+<div id="res"></div>
+<div id="res2"></div>
+<div id="res3"></div>
+<div>
+    <canvas id="myChart" width="600" height="400"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
